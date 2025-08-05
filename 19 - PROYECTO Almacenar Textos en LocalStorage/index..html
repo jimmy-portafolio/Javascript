@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contenido">
+        <div class="container">
+            <h1>Local Storage</h1>
+            <div class="row">
+                <div class="columna-formulario">
+                    <form id="formulario">
+                        <label for="tweet">Tweet</label>
+                        <textarea id="tweet" class="u-full-width" placeholder="Escribe tu tweet aquí..."></textarea>
+                        <input type="submit" class="boton-enviar" value="Agregar">
+                    </form>
+                </div>
+                <div class="columna-tweets">
+                    <h2>Mis Tweets</h2>
+                    <ul id="lista-tweets"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

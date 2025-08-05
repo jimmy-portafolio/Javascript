@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.columna-formulario, .columna-tweets {
+    flex: 1;
+    min-width: 300px;
+}
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#tweet {
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+.boton-enviar {
+    padding: 10px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.boton-enviar:hover {
+    background-color: #0d8ecf;
+}
+#lista-tweets {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+#lista-tweets li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.borrar-tweet {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.borrar-tweet:hover {
+    background-color: #ff0000;
+}
+.error {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto 20px;
+    max-width: 600px;
+    border-radius: 4px;
+}
