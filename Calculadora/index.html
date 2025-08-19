@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Curso Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Calculadora</h1>
+        </div>
+
+        <div class="calculator">
+            <input type="text" class="display" readonly id="pantalla">
+
+            <div class="buttons">
+
+                <button class="btn btn-number" onclick="agregar('1')">1</button>
+                <button class="btn btn-number" onclick="agregar('2')">2</button>
+                <button class="btn btn-number" onclick="agregar('3')">3</button>
+                <button class="btn btn-operator" onclick="agregar('+')">+</button>
+
+                <button class="btn btn-number" onclick="agregar('4')">4</button>
+                <button class="btn btn-number" onclick="agregar('5')">5</button>
+                <button class="btn btn-number" onclick="agregar('6')">6</button>
+                <button class="btn btn-operator" onclick="agregar('-')">-</button>
+
+                <button class="btn btn-number" onclick="agregar('7')">7</button>
+                <button class="btn btn-number" onclick="agregar('8')">8</button>
+                <button class="btn btn-number" onclick="agregar('9')">9</button>
+                <button class="btn btn-operator" onclick="agregar('*')">×</button>
+
+
+                
+                <button class="btn btn-number" onclick="agregar('0')">0</button>
+                <button class="btn btn-other" onclick="agregar('.')">.</button>
+                <button class="btn btn-equals" onclick="calcular()">=</button>
+                <button class="btn btn-operator" onclick="agregar('/')">÷</button>
+                
+                <button class="btn btn-clear" onclick="borrar()">C</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
