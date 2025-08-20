@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre Ciudades Europeas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!-- Menú lateral -->
+     <div class="menu-lateral">
+        <h2>Ciudades Europeas</h2>
+        <div class="ciudad-item" data-ciudad="barcelona"> <a href="#">Barcelona</a></div>
+        <div class="ciudad-item" data-ciudad="roma"> <a href="#">Roma</a> </div>
+        <div class="ciudad-item" data-ciudad="paris"> <a href="#">París</a> </div>
+        <div class="ciudad-item" data-ciudad="londres"> <a href="#">Londres</a> </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="contenido-principal">
+        <!-- Información de Barcelona -->
+        <div class="ciudad-info activo">
+            <h1 class="ciudad-titulo" id="titulo">Bienvenido a nuestra web</h1>
+            <h2 class="ciudad-subtitulo" id="subtitulo">Elija su destino</h2>
+            <p class="ciudad-parrafo" id="parrafo">Compre los mejores viajes en nuestra empresa</p>
+        </div>
+    </div>
+
+    <!-- Cambio importante: type="module" para poder usar import -->
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
