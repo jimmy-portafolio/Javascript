@@ -4,7 +4,7 @@ function getAllProducts() {
     fetch(`${baseURL}/products`)
         .then(response => response.json())
         .then(data => {
-            // fusionar con HTML y CSS
+            // fusionar con HTML y js
             const container = document.querySelector('#productContainer')
             //recorrer cada dato del 
             data.forEach(element => {
