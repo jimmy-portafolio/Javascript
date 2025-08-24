@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--GET-->
+    <h1>Mi Primera API</h1>
+    <p>click para cargar publicacion</p>
+
+    <button id="cargarPosts">Cargar Publicacion</button>
+
+    <!--POST-->
+    <h2>Crear una Nueva Publicacion</h2>
+    <form id="formCrearPost">
+        <div>
+            <label for="postTitle">Titulo:</label>
+            <input type="text" id="postTitle" required>
+        </div>
+        <div>
+            <label for="postBody">Contendido:</label>
+            <textarea id="postBody" required></textarea>
+        </div>
+        <button type="submit">Enviar Nueva Publicacion</button>
+    </form>
+    <!--RESULTADO-->
+    <div id="postData">
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

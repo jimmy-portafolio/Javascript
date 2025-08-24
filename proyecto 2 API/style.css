@@ -1,0 +1,72 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+button{
+    background-color: #4CAF50;
+    border: 0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius:4px ;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #45a049;
+}
+#postData{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.caja{
+    background-color: rgb(190, 209, 184);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.caja h3{
+    margin-top: 0;
+    color: #333;
+}
+.caja p{
+    color: #666;
+}
+
+form div{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    font-family: inherit;
+}
+textarea{
+    min-height: 100px;
+    resize: vertical;
+}
+button[type="submit"]{
+    background-color: #008CBA;
+}
+button[type="submit"]:hover{
+    background-color: #007B9A;
+}
